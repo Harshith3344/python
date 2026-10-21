@@ -23,15 +23,16 @@ while total_chances > 0:
             print("your answer is very close to number\n")
         elif guess < 20:
             print("your answer is very long to number\n")
+        
         else:
             print("ok, some what close to number\n")
     
 
     else:
-        print("Please enter a number between 1 to 50")
-
-if total_chances == 0:
+        print("Please enter a number between 1 to 50\n")
+if total_chances == 0 and not(guess == 49):
     print("your chances are completed, the secret number is 49")
+
 print()
 print()
 print()
