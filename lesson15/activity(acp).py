@@ -12,3 +12,5 @@ while not valid:
         print("please enter a valid number !!")
     except ZeroDivisionError:
         print(" people cannot be zero !!")
+    finally:
+        print("attempt finished")
